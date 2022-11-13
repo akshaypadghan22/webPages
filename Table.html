@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    <style>
+        table{
+          
+          border-spacing: 0; 
+        }
+        .head{
+            width: 10px;
+            height: 150px;
+        }
+        #head1{
+            color: white;
+            background-color: rgb(128,212,255);
+        }
+        #head2{
+            color: white;
+            background-color: rgb(51,187,255);
+        }
+        #head3{
+            color: white;
+            background-color: rgb(0,119,179);
+        }
+        #head4{
+            color: white;
+            background-color: rgb(0,77,153);
+        }
+        #col1{
+                color: gray;
+                background-color: white;
+        }
+        td{
+            width: 10px;
+            height: 50px;
+            text-align: center;
+        }
+        table{
+            border-top-left-radius: 10px ;
+            border-top-right-radius: 10px ;
+        }
+        .gray{
+            background-color: rgb(191,191,191); 
+            
+        }          
+        .gray2{
+          background-color: rgb(237, 236, 236);
+        }     
+        .gray3
+        {
+          background-color: rgb(221, 220, 220);
+        }
+        .gray0{
+          background-color: rgb(200, 200, 200); 
+        }
+        
+        .zoom 
+        {
+                transition: transform .2s; /* Animation */
+        }
+
+        .zoom:hover 
+        {
+          transform: scale(1.1); 
+        }        
+        </style>
+</head>
+<body style="background-color: rgb(109, 109, 109);">
+  
+    <div style="display: flex; margin-left: 110px; margin-top: 50px;">
+        <table style="width:20%" >
+          <tr >
+            <th style="background-color: rgb(193, 191, 191);border-radius: 10px 10px 0px 0px;"><h2 style="font-family: 'Barlow Condensed', sans-serif;
+              ">plans</h2></th>
+          </tr>
+          <tr>
+            <tr>
+              <th class="head" id="col1" style="font-size: 30px; background-color: rgb(236, 236, 236);font-family: 'Barlow Condensed', sans-serif;
+              ">choose your plan</th>
+            </tr>
+            <tr>
+              <td class="gray">Amount of space</td>
+            </tr>
+            <tr>
+              <td class="gray3">Bandwidth per month</td>
+            </tr>
+            <tr>
+                <td class="gray">No. of e-mail accounts</td>
+              </tr>
+              <tr>
+                <td class="gray3">No. of MySql database</td>
+              </tr>
+              <tr>
+                <td class="gray">24h support</td>
+              </tr>
+              <tr>
+                <td class="gray3">Support tickets per mo.</td>
+              </tr>
+              <tr>
+                <td class="gray"></td>
+              </tr>
+          </table>
+          
+          <table class="zoom" style="width:18%; cursor: pointer;">
+            <tr>
+              <th style="background-color: rgb(94, 201, 255); border-radius:10px 10px 0px 0px ; ">
+                <h2 style="font-family: 'Barlow Condensed', sans-serif;">starter</h2>
+            </tr>
+            <tr>
+              <th class= "head" id="head1" style="margin: 0; padding: 0; font-family: 'Barlow Condensed', sans-serif;">
+                      <span style="font-size: 80px;font-family: 'Barlow Condensed', sans-serif;"> $10</span><br>
+                        per month
+              </th>
+            </tr>
+            <tr >
+              <td  class="gray0">10GB</td>
+            </tr>
+            <tr>
+              <td class="gray2">100GB</td>
+            </tr>
+            <tr>
+                <td class="gray0">1</td>
+              </tr>
+              <tr>
+                <td class="gray2">1</td>
+              </tr>
+              <tr>
+                <td class="gray0">Yes</td>
+              </tr>
+              <tr>
+                <td class="gray2">1</td>
+              </tr>
+              <tr>
+                
+                <td class="gray0">
+                    <input type="button" name="sign up!" id="sign up!" value="sign up!"  style="cursor: pointer; padding:5px 20px 5px 20px  ; border-radius: 5px;">
+                </td>
+              </tr>
+          </table>
+
+          <table class="zoom" style="width:18%; cursor: pointer; ">
+            <tr>
+              <th style="background-color: rgb(25,178,255); border-radius:10px 10px 0px 0px ;" >
+                <h2 style="font-family: 'Barlow Condensed', sans-serif;">econo</h2></th>
+            </tr>
+            <tr>
+              <th class="head" id="head2" style="font-family: 'Barlow Condensed', sans-serif;">
+                 <span style="font-size: 80px; font-family: 'Barlow Condensed', sans-serif;">$30</span>  <br>
+                  per month</th>
+            </tr>
+            <tr>
+              <td class="gray">30GB</td>
+            </tr>
+            <tr>
+              <td class="gray3">200GB</td>
+            </tr>
+            <tr>
+                <td class="gray">10</td>
+              </tr>
+              <tr>
+                <td class="gray3">10</td>
+              </tr>
+              <tr>
+                <td class="gray">Yes</td>
+              </tr>
+              <tr>
+                <td class="gray3">3</td>
+              </tr>
+              <tr>
+                <td class="gray">
+                  <input type="button" name="sign up!" id="sign up!" value="sign up!"  style="cursor: pointer; padding:5px 20px 5px 20px  ; border-radius: 5px;">
+                  
+              </tr>
+          </table>
+
+          <table class="zoom" style="width:18%; cursor: pointer;">
+            <tr>
+              <th style="background-color:  rgb(4, 105, 156); border-radius: 10px 10px 0px 0px;">
+              <h2 style="font-family: 'Barlow Condensed', sans-serif;">standard</h2> </th>
+            </tr>
+            <tr>
+              <th class="head" id="head3" style="font-family: 'Barlow Condensed', sans-serif;
+              ">
+               <span style="font-size: 80px; font-family: 'Barlow Condensed', sans-serif;
+               ">$59</span>  <br>
+                per month</th>
+            </tr>
+            <tr>
+              <td class="gray0">100GB</td>
+            </tr>
+            <tr>
+              <td class="gray2">500GB</td>
+            </tr>
+            <tr>
+                <td class="gray0">50</td>
+              </tr>
+              <tr>
+                <td class="gray2">50</td>
+              </tr>
+              <tr>
+                <td class="gray0">Yes</td>
+              </tr>
+              <tr>
+                <td class="gray2">5</td>
+              </tr>
+              <tr>
+                <td class="gray0">
+                  <input type="button" name="sign up!" id="sign up!" value="sign up!"  style="cursor: pointer; padding:5px 20px 5px 20px  ; border-radius: 5px;">
+              </tr>
+          </table>
+          <table class="zoom" style="width:18%; cursor: pointer; "> 
+            <tr>
+              <th style=" background-color: rgb(0, 63, 126); border-radius: 10px 10px 0px 0px;">
+                <h2 style="font-family: 'Barlow Condensed', sans-serif;
+                ">professional</h2></th>
+            </tr>
+            <tr>
+              <th class="head" id="head4" style="font-family: 'Barlow Condensed', sans-serif;
+              ">
+                    <span style="font-family: 'Barlow Condensed', sans-serif;
+                    font-size: 80px;">$99</span> <br>
+                    per month</th>
+            </tr>
+            <tr>
+              <td class="gray">Unlimited</td>
+            </tr>
+            <tr>
+              <td class="gray3">1000GB</td>
+            </tr>
+            <tr>
+                <td class="gray"> Unlimited</td>
+              </tr>
+              <tr>
+                <td class="gray3">Unlimited</td>
+              </tr>
+              <tr>
+                <td class="gray">Yes</td>
+              </tr>
+              <tr>
+                <td class="gray3">10</td>
+              </tr>
+             
+              <tr>
+                <td class="gray">
+                  
+                  
+
+
+                    <input type="button" name="sign up!" id="sign up!" value="sign up!"  style="cursor: pointer; padding:5px 20px 5px 20px  ; border-radius: 5px;">
+                    
+                </tr>
+            
+          </table>
+
+    </div>
+</body>
+</html>
